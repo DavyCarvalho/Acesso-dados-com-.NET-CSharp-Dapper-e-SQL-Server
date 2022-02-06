@@ -135,3 +135,5 @@ $RECYCLE.BIN/
 _NCrunch*
 *.v2
 /Shop/.vs/Shop/v16/TestStore/0
+.vscode/launch.json
+.vscode/tasks.json
