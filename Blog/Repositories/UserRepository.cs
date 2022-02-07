@@ -20,7 +20,8 @@ namespace Blog.Repositories
             var query = @"
                 SELECT
                     [User].*,
-                    [Role].*
+                    [Role].[Id],
+                    [Role].[Name]
                 FROM
                     [User]
                     LEFT JOIN [UserRole] ON [UserRole].[UserId] = [User].[Id]
